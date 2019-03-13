@@ -708,28 +708,28 @@
     data() {
       return {
         item1: {
-          background: 'url(../' + image1 + ')'
+          background: 'url(./' + image1 + ')'
         },
         item2: {
-          background: 'url(../' + image2 + ')'
+          background: 'url(./' + image2 + ')'
         },
         item3: {
-          background: 'url(../' + image3 + ')'
+          background: 'url(./' + image3 + ')'
         },
         item4: {
-          background: 'url(../' + image4 + ')'
+          background: 'url(./' + image4 + ')'
         },
         item5: {
-          background: 'url(../' + image5 + ')'
+          background: 'url(./' + image5 + ')'
         },
         scrollimage1: {
-          background: 'url(../' + scrollimage1 + ')'
+          background: 'url(./' + scrollimage1 + ')'
         },
          scrollimage2: {
-          background: 'url(../' + scrollimage2 + ')'
+          background: 'url(./' + scrollimage2 + ')'
         },
           scrollimage3: {
-          background: 'url(../' + scrollimage3 + ')'
+          background: 'url(./' + scrollimage3 + ')'
         }    
       }
     },
