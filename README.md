@@ -1,5 +1,7 @@
 # lifelove
 ```
+git clone https://github.com/Mark-Tok/findlove.git
+
 cd findlove
 ```
 
