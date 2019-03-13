@@ -21,7 +21,7 @@ $(document).ready(function () {
     slidesToShow: 1,
     adaptiveHeight: true,
     arrows: false,
-  });
+  })
 })
 </script>
 
@@ -119,8 +119,8 @@ $(document).ready(function () {
         margin: 0 20px;
         border: none;
         background: #00bbd2;
-        width: 10px;
-        height: 12px;
+        width: 16px;
+        height: 16px;
         border-radius: 100px;
         cursor: pointer;
       }

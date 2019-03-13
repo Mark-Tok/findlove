@@ -48,7 +48,7 @@
             </ArticleCover>
             <p>
               У учёных нет точного ответа на этот вопрос, но есть любопытные исследования. Например, в Голландии
-              <span v-on:click="greet" class="link">провели
+              <span v-on:click="open" class="link">провели
                 <span class="tooltip">
                   <div class="tooltip__link">
                     <a href="">Is Love at First Sight Real?</a>
@@ -59,7 +59,7 @@
                   <div v-on:click="close" class="tooltip_close"></div>
                 </span>
               </span>
-              серию экспериментов и пришли к выводу, что <span v-on:click="greet" class="link">любви
+              серию экспериментов и пришли к выводу, что <span v-on:click="open" class="link">любви
                 <span class="tooltip">
                   <div class="tooltip__link">
                     <a href="">Is Love at First Sight Real?</a>
@@ -74,7 +74,7 @@
               внешностью.
             </p>
             <p>
-              Учёные вообще любят<span v-on:click="greet" class="link"> объяснять
+              Учёные вообще любят<span v-on:click="open" class="link"> объяснять
                 <span class="tooltip">
                   <div class="tooltip__link">
                     <a href="">Is Love at First Sight Real?</a>
@@ -121,7 +121,7 @@
         <div class="container__inner">
           <div class="container__item1">
             <p>Любовь может начаться с любого из этих чувств. Например, привязанность к другу или коллеге
-              <span v-on:click="greet" class="link"> способна
+              <span v-on:click="open" class="link"> способна
                 <span class="tooltip">
                   <div class="tooltip__link">
                     <a href="">Is Love at First Sight Real?</a>
@@ -135,7 +135,7 @@
               перерасти в романтические отношения: не обязательно сначала влюбляться или испытывать физическое
               влечение.</p>
             <p>Не стоит расстраиваться, если с первого взгляда между вами не пробежала искра.
-              В среднем человеку <span v-on:click="greet" class="link"> нужно
+              В среднем человеку <span v-on:click="open" class="link"> нужно
                 <span class="tooltip">
                   <div class="tooltip__link">
                     <a href="">Is Love at First Sight Real?</a>
@@ -170,7 +170,7 @@
             бессмысленное общение.
           </p>
           <p>
-            С другой стороны, онлайн-знакомства заставляют много времени проводить в интернете и <span v-on:click="greet"
+            С другой стороны, онлайн-знакомства заставляют много времени проводить в интернете и <span v-on:click="open"
               class="link"> редко
               <span class="tooltip">
                 <div class="tooltip__link">
@@ -231,7 +231,7 @@
           Среди общих друзей
         </div>
         <div class="container-sticky__item2-item">
-          <p>Примерно 30% пар <span v-on:click="greet" class="link"> знакомятся
+          <p>Примерно 30% пар <span v-on:click="open" class="link"> знакомятся
               <span class="tooltip">
                 <div class="tooltip__link">
                   <a href="">Is Love at First Sight Real?</a>
@@ -250,7 +250,7 @@
         </div>
         <div class="container-sticky__item2-item">
           <p>По статистике, 20% людей находят партнёра в баре или ресторане. Расслабленная обстановка, музыка
-            и алкоголь способствуют новым знакомствам. Но знакомство в баре больше <span v-on:click="greet" class="link">
+            и алкоголь способствуют новым знакомствам. Но знакомство в баре больше <span v-on:click="open" class="link">
               подходит
               <span class="tooltip">
                 <div class="tooltip__link">
@@ -451,7 +451,7 @@
             <p>
               Влюблённость не то же самое, что любовь. Можно здорово проводить время вместе и строить планы на будущее,
               а потом понять, что это не ваш человек, и расстаться. По статистике, 56% людей
-              <span v-on:click="greet" class="link"> расстаются
+              <span v-on:click="open" class="link"> расстаются
                 <span class="tooltip">
                   <div class="tooltip__link">
                     <a href="">Is Love at First Sight Real?</a>
@@ -467,7 +467,7 @@
             <p>
               И всё же перед началом совместной жизни хочется быть уверенным, что вы встретили своего человека.
               Психологи из Эксетерского университета
-              <span v-on:click="greet" class="link"> провели
+              <span v-on:click="open" class="link"> провели
                 <span class="tooltip">
                   <div class="tooltip__link">
                     <a href="">Is Love at First Sight Real?</a>
@@ -571,7 +571,7 @@
           <p>В данный момент жизни вам не нужно решать такие проблемы, поэтому наслаждайтесь свободой и делайте то, что
             вам нравится.</p>
           <p>Психологи регулярно
-            <span v-on:click="greet" class="link"> находят
+            <span v-on:click="open" class="link"> находят
               <span class="tooltip">
                 <div class="tooltip__link">
                   <a href="">Is Love at First Sight Real?</a>
@@ -594,7 +594,7 @@
           <p>Научитесь находить гармонию в себе: развивайтесь, ищите себя, пробуйте новые направления, ставьте цели и
             достигайте их. Когда вы довольны собой, вы начинаете сиять. Перед этим очень сложно устоять — люди
             инстинктивно
-            <span v-on:click="greet" class="link"> тянутся
+            <span v-on:click="open" class="link"> тянутся
               <span class="tooltip">
                 <div class="tooltip__link">
                   <a href="">Is Love at First Sight Real?</a>
@@ -631,7 +631,7 @@
           <p>Занимайтесь спортом, экспериментируйте со стилем одежды и аксессуаров, решитесь на новую стрижку. Делайте
             это в первую очередь для себя: чтобы выходить из дома с мыслью «я круто выгляжу». Это придаст вам
             уверенности, а психологи
-            <span v-on:click="greet" class="link"> утверждают
+            <span v-on:click="open" class="link"> утверждают
               <span class="tooltip">
                 <div class="tooltip__link">
                   <a href="">Is Love at First Sight Real?</a>
@@ -649,7 +649,7 @@
         <div class="container-sticky__item2-item">
           <p>Чтобы что-то найти, нужно знать, что вы ищете. Речь идёт не об идеальных внешних параметрах: такие
             критерии вообще лучше не задавать. Важнее понимание того, какого человека вы видите рядом с собой. </p>
-          <p>Попробуйте это <span v-on:click="greet" class="link"> упражнение
+          <p>Попробуйте это <span v-on:click="open" class="link"> упражнение
               <span class="tooltip">
                 <div class="tooltip__link">
                   <a href="">Is Love at First Sight Real?</a>
@@ -734,11 +734,11 @@
       }
     },
     methods: {
-      greet: function (event) {
+      open: function (event) {
         event.target.childNodes[1].style.opacity = 1;
 
       },
-      close: function () {
+      close: function (event) {
         event.target.parentNode.style.opacity = 0;
       },
     },
@@ -764,7 +764,6 @@
     }
   }
 </script>
-
 <style lang="scss">
   @font-face {
     font-family: "Montserrat-Regular";
@@ -772,7 +771,6 @@
     font-weight: 300;
     src: url("fonts/Regular.ttf") format("woff2");
   }
-
   @font-face {
     font-family: "Montserrat-Bold";
     font-style: normal;
@@ -947,6 +945,7 @@
       background: black;
       width: 250px;
       padding: 35px;
+      left: 0;
 
       a {
         color: white;
