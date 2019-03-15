@@ -10,7 +10,7 @@
 .container {
   &__squares {
     position: absolute;
-    width: 1200px;
+    width: 100%;
     height: 500px;
     left: 0;
     right: 0;
@@ -51,9 +51,23 @@
   }
 }
 
+ @media (max-width: 1750px) {
+ .container {
+    &__squares {
+      position: relative;
+    overflow: hidden;
+    height: 83px;
+    width: 100%;
+    }
+  }
+  }
+
 @media (max-width: 1230px) {
   .container {
-  &__squares {
-  width: 100%;
-}}}
+    &__squares {
+      width: 100%;
+    }
+  }
+  }
+ 
 </style>

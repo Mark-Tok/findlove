@@ -32,7 +32,7 @@
         </div>
         <Form />
         <div class="container__inner">
-          <div id="item1" class="container__item1">
+          <div id="item1" class="container__item">
             <p>
               Ваши советы мы собираем на специальной странице (ссылка на лендинг). Х апреля жюри SCARLETT выберет из
               них
@@ -89,10 +89,11 @@
               существует три нейрофизиологические подсистемы, которые запускают половое влечение, влюблённость и
               привязанность.
             </p>
-            <Squares />
+            
           </div>
         </div>
       </div>
+      <Squares />
       <div class="slider-circle">
         <div class="slider-circle__background"></div>
         <div class="slider-circle__image">
@@ -147,7 +148,7 @@
                 </span>
               </span> девять свиданий, чтобы привыкнуть к новому </p>
           </div>
-          <div id="item2" class="container__item2">
+          <div id="item2" class="container__item">
             <ArticleCover number="02" :img="item2">
               <span>
                 Где найти
@@ -321,11 +322,11 @@
         <p>Во многих случаях справиться со страхом знакомства помогает практика. Чем чаще вы знакомитесь, тем
           реалистичнее будут ожидания при каждой попытке. Если справиться со страхом самостоятельно не удаётся —
           обратитесь за помощью к психологу.</p>
-        <Squares />
       </Commentary>
+    <Squares />
       <div class="container__content">
         <div class="container__inner">
-          <div id="item3" class="content__item3">
+          <div id="item3" class="conteiner__item">
             <ArticleCover number="03" :img="item3">
               <span>
                 Как вести себя
@@ -436,7 +437,7 @@
               </div>
             </Harmonic>
           </div>
-          <div id="item4" class="content__item4">
+          <div id="item4" class="conteiner__item">
             <ArticleCover number="04" :img="item4">
               <span>
                 Как понять что
@@ -541,9 +542,8 @@
             <p>Эти признаки помогут понять, что вы нашли своего человека. Не обязательно иметь общие интересы или всё
               время проводить вместе. Гораздо важнее согласие по принципиальным вопросам, умение договариваться и идти
               на компромиссы.</p>
-            <Squares />
           </div>
-          <div id="item5" class="content__item5">
+          <div id="item5" class="conteiner__item">
             <ArticleCover number="05" :img="item5">
               <span>
                 Что делать, если не
@@ -735,11 +735,11 @@
     },
     methods: {
       open: function (event) {
-        event.target.childNodes[1].style.opacity = 1;
+        event.target.childNodes[1].style.visibility = 'visible';
 
       },
       close: function (event) {
-        event.target.parentNode.style.opacity = 0;
+        event.target.parentNode.style.visibility = 'hidden';
       },
     },
     mounted() {
@@ -785,7 +785,6 @@
     src: url("fonts/pattaya.ttf") format("woff2");
   }
 
-
   body {
     margin: 0;
     padding: 0;
@@ -804,6 +803,10 @@
       height: 490px;
       background-repeat: no-repeat;
     }
+
+  &__item {
+    position: relative;
+  }
 
     &__share {
       display: none;
@@ -940,7 +943,7 @@
 
     .tooltip {
       position: absolute;
-      opacity: 0;
+      visibility: hidden;
       transition: .3s;
       background: black;
       width: 250px;
@@ -1055,6 +1058,11 @@
   }
 
   @media (max-width: 768px) {
+
+html {
+  overflow-x: hidden;
+}
+
     .container {
       &__inner {
         padding: 0 40px

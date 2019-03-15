@@ -168,6 +168,7 @@ $(document).ready(function () {
     position: absolute;
     bottom: 12px;
     right: -27px;
+    z-index: 90;
   }
 
   span.pagingInfo {

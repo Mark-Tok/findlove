@@ -2,6 +2,8 @@
   <div class="container-sticky__content">
     <div class="container-sticky__columns">
       <div class="container-sticky__column">
+        <div class="container-sticky__scroll-title-mobile"> {{title}}
+          </div>
         <div :style="background" class="container-sticky__scroll-image">
           <div class="container-sticky__scroll-title"> {{title}}
           </div>
@@ -19,7 +21,8 @@
 }
 </script>
 
-<style lang="scss">.container-sticky {
+<style lang="scss">
+.container-sticky {
   &__column {
     width: 83%;
     position: -webkit-sticky;
@@ -85,6 +88,10 @@
     top: -51px;
     width: 190px;
   }
+  &__scroll-title-mobile{
+    display: none;
+    padding: 0 44px;
+  }
 }
 
 @media (max-width: 1500px) {
@@ -127,19 +134,19 @@
       overflow: hidden;
       margin: 0;
       height: auto;
+      top: 0;
     }
 
     &__scroll-image {
       background-size: cover !important;
       position: relative;
-      top: 0;
+      top: 0px;
       padding-bottom: 51%;
       height: auto;
       background-position: center center !important;
     }
 
     &__content {
-      margin-top: -130px;
       width: 100%;
       position: relative;
     }
@@ -149,7 +156,7 @@
       position: relative;
       margin: 0;
       padding: 0;
-      margin-top: 167px;
+      margin-top: 50px;
     }
 
     &__item2-item {
@@ -162,7 +169,37 @@
       width: 84%;
       margin: 0 auto;
     }
+    &__scroll-title {
+      display: none;
+    }
+    &__scroll-title-mobile {
+      display: block;
+       font-size: 25px;
+    font-weight: 700;
+    letter-spacing: -.4px;
+    text-transform: uppercase;
+    color: #00bbd2;
+    line-height: normal;
+    margin-bottom: 16px;
+    font-family: Montserrat;
+    width: 190px;
+    }
+
   }
+}
+
+@media (max-width: 480px) {
+ .container-sticky {
+   &__column{
+     top: 0;
+   }
+   &__scroll-image {
+     top: 0;
+   }
+   &__item2-content{
+     margin-top: 20px;
+   }
+ }
 }
 
 </style>

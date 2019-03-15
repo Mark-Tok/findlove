@@ -66,12 +66,16 @@ export default {
     .article-cover__title span {
       font-size: 17px;
     }
+    .article-cover__backgound {
+      margin-top: 50px;
+    }
   }
 
   @media (max-width: 480px) {
 
     .article-cover {
       margin-bottom: 114px;
+      margin-top: 50px;
     }
 
     .article-cover__number {
@@ -82,6 +86,9 @@ export default {
       position: relative !important;
       margin-top: 51px;
       width: 100% !important;
+    }
+    .article-cover__backgound {
+      margin-top: 0px;
     }
   }
 </style>
