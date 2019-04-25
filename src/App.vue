@@ -6,7 +6,6 @@
       <div class="container__cover">
         <div class="container__logo">
           <img src="./assets/scarlet_white.svg" alt>
-          <img src="./assets/logo_white.svg" alt="">
         </div>
       </div>
       <div class="container__content">
